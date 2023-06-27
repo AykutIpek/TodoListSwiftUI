@@ -30,6 +30,7 @@
 		E9ADA0722A4B6AF300E59BCA /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA0712A4B6AF300E59BCA /* LoginViewViewModel.swift */; };
 		E9ADA0742A4B6B1300E59BCA /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA0732A4B6B1300E59BCA /* RegisterViewViewModel.swift */; };
 		E9ADA0762A4B6B2500E59BCA /* TodoListItemsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA0752A4B6B2500E59BCA /* TodoListItemsViewViewModel.swift */; };
+		E9ADA0782A4B72A300E59BCA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA0772A4B72A300E59BCA /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		E9ADA0712A4B6AF300E59BCA /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		E9ADA0732A4B6B1300E59BCA /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		E9ADA0752A4B6B2500E59BCA /* TodoListItemsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemsViewViewModel.swift; sourceTree = "<group>"; };
+		E9ADA0772A4B72A300E59BCA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				E9ADA05F2A4B69D600E59BCA /* LoginView.swift */,
 				E9ADA0612A4B69F700E59BCA /* RegisterView.swift */,
 				E9ADA05B2A4B699E00E59BCA /* TodoListItemsView.swift */,
+				E9ADA0772A4B72A300E59BCA /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9ADA0682A4B6A8400E59BCA /* TodoListItem.swift in Sources */,
+				E9ADA0782A4B72A300E59BCA /* HeaderView.swift in Sources */,
 				E9ADA0602A4B69D600E59BCA /* LoginView.swift in Sources */,
 				E9ADA0742A4B6B1300E59BCA /* RegisterViewViewModel.swift in Sources */,
 				E9ADA06A2A4B6AB300E59BCA /* MainViewViewModel.swift in Sources */,
@@ -383,8 +387,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,8 +415,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

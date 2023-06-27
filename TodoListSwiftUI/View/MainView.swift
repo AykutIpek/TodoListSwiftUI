@@ -9,12 +9,8 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
-            Button("Button") {
-                print("Tapped")
-            }
-        }
-        .padding()
+            LoginView()
+
     }
 }
 
