@@ -10,6 +10,8 @@ import SwiftUI
 struct NewItemView: View {
     
     @StateObject var viewModel = NewItemViewViewModel()
+    @Binding var newItemPresented: Bool
+    
     var body: some View {
         VStack{
             Text("New Item")
@@ -27,8 +29,16 @@ struct NewItemView: View {
                 
                 //Button
                 TLButton(title: "Save", background: .pink) {
-                    viewModel.save()
+                    if viewModel.canSave {
+                        viewModel.save()
+                        newItemPresented = false
+                    }else{
+                        viewModel.showAlert = true
+                    }
                 }
+            }
+            .alert(isPresented: $viewModel.showAlert) {
+                Alert(title: Text("Error"), message: Text("Please fill in all fields and select due date that is today or never."))
             }
         }
     }
@@ -36,6 +46,10 @@ struct NewItemView: View {
 
 struct NewItemView_Previews: PreviewProvider {
     static var previews: some View {
-        NewItemView()
+        NewItemView(newItemPresented: Binding(get: {
+            return true
+        }, set: { _, _ in
+            
+        }))
     }
 }
