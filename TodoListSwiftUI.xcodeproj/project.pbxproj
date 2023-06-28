@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9550C442A4C408500ECC1C7 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9550C432A4C408500ECC1C7 /* TLButton.swift */; };
 		E9ADA03F2A4B637E00E59BCA /* TodoListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA03E2A4B637E00E59BCA /* TodoListSwiftUIApp.swift */; };
 		E9ADA0412A4B637E00E59BCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA0402A4B637E00E59BCA /* MainView.swift */; };
 		E9ADA0432A4B637F00E59BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADA0422A4B637F00E59BCA /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9550C432A4C408500ECC1C7 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		E9ADA03B2A4B637E00E59BCA /* TodoListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9ADA03E2A4B637E00E59BCA /* TodoListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListSwiftUIApp.swift; sourceTree = "<group>"; };
 		E9ADA0402A4B637E00E59BCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				E9ADA0612A4B69F700E59BCA /* RegisterView.swift */,
 				E9ADA05B2A4B699E00E59BCA /* TodoListItemsView.swift */,
 				E9ADA0772A4B72A300E59BCA /* HeaderView.swift */,
+				E9550C432A4C408500ECC1C7 /* TLButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				E9ADA06A2A4B6AB300E59BCA /* MainViewViewModel.swift in Sources */,
 				E9ADA0412A4B637E00E59BCA /* MainView.swift in Sources */,
 				E9ADA0642A4B6A3400E59BCA /* TodoListView.swift in Sources */,
+				E9550C442A4C408500ECC1C7 /* TLButton.swift in Sources */,
 				E9ADA06C2A4B6AC200E59BCA /* ProfileViewViewModel.swift in Sources */,
 				E9ADA05C2A4B699E00E59BCA /* TodoListItemsView.swift in Sources */,
 				E9ADA0762A4B6B2500E59BCA /* TodoListItemsViewViewModel.swift in Sources */,
