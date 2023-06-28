@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+final class NewItemViewViewModel: ObservableObject{
+    //MARK: - Properties
+    @Published var title = ""
+    @Published var dueDate = Date()
+    init() {}
+    
+    func save(){
+        
+    }
+}
