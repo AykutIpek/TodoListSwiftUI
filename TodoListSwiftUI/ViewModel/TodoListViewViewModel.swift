@@ -6,12 +6,24 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
 
 final class TodoListViewViewModel: ObservableObject{
-    
+    //MARK: - Properties
     @Published var showingNewItemView = false
-    init() {}
+    private let userId: String
     
-    
+    //MARK: - Lifecycle
+    init(userID: String) {
+        self.userId = userID
+    }
+}
+
+//MARK: - Functions
+/// Delete todolist item
+extension TodoListViewViewModel{
+    func  delete(id: String) {
+        Firestore.firestore().collection("users").document(userId).collection("todos").document(id).delete()
+    }
 }
