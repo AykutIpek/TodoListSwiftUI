@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E9550C442A4C408500ECC1C7 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9550C432A4C408500ECC1C7 /* TLButton.swift */; };
 		E9550C462A4C63B500ECC1C7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9550C452A4C63B500ECC1C7 /* Extensions.swift */; };
+		E9A889F02A4EDE2400ECD27E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A889EF2A4EDE2400ECD27E /* Launch Screen.storyboard */; };
 		E9ADA03F2A4B637E00E59BCA /* TodoListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA03E2A4B637E00E59BCA /* TodoListSwiftUIApp.swift */; };
 		E9ADA0412A4B637E00E59BCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA0402A4B637E00E59BCA /* MainView.swift */; };
 		E9ADA0432A4B637F00E59BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADA0422A4B637F00E59BCA /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		E9550C432A4C408500ECC1C7 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		E9550C452A4C63B500ECC1C7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9A889EF2A4EDE2400ECD27E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E9ADA03B2A4B637E00E59BCA /* TodoListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9ADA03E2A4B637E00E59BCA /* TodoListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListSwiftUIApp.swift; sourceTree = "<group>"; };
 		E9ADA0402A4B637E00E59BCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				E9ADA0532A4B668D00E59BCA /* GoogleService-Info.plist */,
 				E9ADA0422A4B637F00E59BCA /* Assets.xcassets */,
 				E9550C452A4C63B500ECC1C7 /* Extensions.swift */,
+				E9A889EF2A4EDE2400ECD27E /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				E9ADA0462A4B637F00E59BCA /* Preview Assets.xcassets in Resources */,
 				E9ADA0432A4B637F00E59BCA /* Assets.xcassets in Resources */,
+				E9A889F02A4EDE2400ECD27E /* Launch Screen.storyboard in Resources */,
 				E9ADA0542A4B668D00E59BCA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
